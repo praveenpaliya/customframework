@@ -1,0 +1,450 @@
+@charset "utf-8";
+/* CSS Document */
+@media screen and (max-width:1024px) {
+	#cssmenu>ul>li>a {
+    	padding: 10px;
+	}
+
+	.smnopadding {
+		padding:0px;
+	}
+}
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+  .productsection .products .producttitle h3 {
+    height: 90px;
+}
+}
+
+@media screen and (max-width:767px) {
+	.productdeials h1, .shopping-cart-area h1, .productdetails h1 {
+		font-size: 20px;
+		line-height: 26px;
+	}
+
+	.page-wel img {
+		max-width: 100% !important;
+	}
+
+	.productimagesleder .carousel-control.left {
+		left: 0px !important;
+	}
+
+	.productimagesleder .carousel-control.right {
+		right: 0px !important;
+	}
+
+	.shopnowbtndes button, .button2 {
+		padding: 9px 5px;
+		width: 100%;
+	}
+	.nopadding {
+    	padding:  0px !important;
+	}
+	.letter_box img {
+		height: 150px;
+		width: auto;
+	}
+	.video_section h2 {font-size: 22px;}
+
+	.home_video_section .videopart {height: 300px;}
+
+	.letter_box { text-align: center; margin-bottom: 20px;}
+
+	.lettercontent h3 {
+		height: 85px;
+		font-size: 14px;
+	}
+
+	.slidercontent h2 {
+		font-size: 19px;
+	}
+	.slidercontent {
+		height: 165px !important;
+	}
+	#cssmenu .submenu-button {
+		height: 35px;
+	}
+}
+
+@media screen and (max-width: 1199px) {
+	.productsection .products .producttitle {
+		min-height: 70px;
+	}
+
+	#cssmenu>ul>li>a {
+		padding: 8px;
+	}
+}
+
+@media screen and (max-width:1000px) {
+	.logo {
+		/*position: absolute;
+		top: 0;
+		left: 0;*/
+		width: 100%;
+		/*height: 46px;*/
+		text-align: center;
+		padding: 10px 0 0 0;
+		float: none
+	}
+
+	.logo2 {
+		display: none
+	}
+	nav {
+		width: 100%;
+	}
+	#cssmenu {
+		width: 100%
+	}
+	#cssmenu ul {
+		width: 100%;
+		display: none
+	}
+	#cssmenu ul li {
+		width: 100%;
+		border-top: 1px solid #444
+	}
+	#cssmenu ul li:hover {
+		background: #363636;
+	}
+	#cssmenu ul ul li,
+	#cssmenu li:hover>ul>li {
+		height: auto
+	}
+	#cssmenu ul li a,
+	#cssmenu ul ul li a {
+		width: 100%;
+		border-bottom: 0
+	}
+	#cssmenu>ul>li {
+		float: none
+	}
+	#cssmenu ul ul li a {
+		padding-left: 25px
+	}
+	#cssmenu ul ul li {
+		background: #333!important;
+	}
+	#cssmenu ul ul li:hover {
+		background: #363636!important
+	}
+	#cssmenu ul ul ul li a {
+		padding-left: 35px
+	}
+	#cssmenu ul ul li a {
+		color: #ddd;
+		background: none
+	}
+	#cssmenu ul ul li:hover>a,	#cssmenu ul ul li.active>a {
+		color: #fff
+	}
+	#cssmenu ul ul,
+	#cssmenu ul ul ul {
+		position: relative;
+		left: 0;
+		width: 100%;
+		margin: 0;
+		text-align: left
+	}
+	#cssmenu>ul>li.has-sub>a:after,	#cssmenu>ul>li.has-sub>a:before,	#cssmenu ul ul>li.has-sub>a:after,	#cssmenu ul ul>li.has-sub>a:before {
+		display: none
+	}
+	#cssmenu #head-mobile {
+		display: block;
+		padding: 23px;
+		color: #ddd;
+		font-size: 12px;
+		font-weight: 700
+	}
+	.button {
+		width: 55px;
+		height: 46px;
+		position: absolute;
+		left: 0;
+		top: 0;
+		cursor: pointer;
+		z-index: 12399994;
+	}
+	.button:after {
+    position: absolute;
+    top: 24px;
+    right: 20px;
+    display: block;
+    height: 10px;
+    width: 20px;
+    border-top: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+    content: '';
+}
+	.button:before {
+		-webkit-transition: all .3s ease;
+		-ms-transition: all .3s ease;
+		transition: all .3s ease;
+		position: absolute;
+		top: 16px;
+		right: 20px;
+		display: block;
+		height: 2px;
+		width: 20px;
+		background: #000;
+		content: ''
+	}
+	.button.menu-opened:after {
+		-webkit-transition: all .3s ease;
+		-ms-transition: all .3s ease;
+		transition: all .3s ease;
+		top: 23px;
+		border: 0;
+		height: 2px;
+		width: 19px;
+		background: #000;
+		-webkit-transform: rotate(45deg);
+		-moz-transform: rotate(45deg);
+		-ms-transform: rotate(45deg);
+		-o-transform: rotate(45deg);
+		transform: rotate(45deg)
+	}
+	.button.menu-opened:before {
+		top: 23px;
+		background: #000;
+		width: 19px;
+		-webkit-transform: rotate(-45deg);
+		-moz-transform: rotate(-45deg);
+		-ms-transform: rotate(-45deg);
+		-o-transform: rotate(-45deg);
+		transform: rotate(-45deg)
+	}
+	#cssmenu .submenu-button {
+		position: absolute;
+		z-index: 99;
+		right: 0;
+		top: 0;
+		display: block;
+		border-left: 1px solid #444;
+		height: 31px;
+		width: 46px;
+		cursor: pointer
+	}
+	#cssmenu .submenu-button.submenu-opened {
+		background: #262626
+	}
+	#cssmenu ul ul .submenu-button {
+		height: 34px;
+		width: 34px
+	}
+	#cssmenu .submenu-button:after {
+		position: absolute;
+		top: 22px;
+		right: 19px;
+		width: 8px;
+		height: 2px;
+		display: block;
+		background: #ddd;
+		content: ''
+	}
+	#cssmenu ul ul .submenu-button:after {
+		top: 15px;
+		right: 13px
+	}
+	#cssmenu .submenu-button.submenu-opened:after {
+		background: #fff
+	}
+	#cssmenu .submenu-button:before {
+		position: absolute;
+		top: 19px;
+		right: 22px;
+		display: block;
+		width: 2px;
+		height: 8px;
+		background: #ddd;
+		content: ''
+	}
+	#cssmenu ul ul .submenu-button:before {
+		top: 12px;
+		right: 16px
+	}
+	#cssmenu .submenu-button.submenu-opened:before {
+		display: none
+	}
+	#cssmenu ul ul ul li.active a {
+		border-left: none
+	}
+	#cssmenu>ul>li.has-sub>ul>li.active>a,
+	#cssmenu>ul ul>li.has-sub>ul>li.active>a {
+		border-top: none
+	}
+}
+@media screen and (max-width:800px) {
+.headertop .top-left p {
+    font-size: 11px;
+}
+.slidercontent h2 {
+    line-height: 1.5;
+}
+	.headertop .top-right ul li {
+    padding: 0 4px;
+    font-size: 12px;
+}
+	.menupart .logo img {
+    width: 25%;
+}
+	.button {
+    left: 0;
+		right:unset;
+}
+	.about h2 {
+    margin: 0;
+    padding: 0px 0 13px;
+}
+.productsection .products img {
+    height: 200px;
+}
+	.productsection .products .producttitle h3 {
+    font-size: 15px;
+}
+	.letters .slick-slide img {
+    height: 125px;
+}
+	.birthdays img {
+    height: 145px;
+}
+	.given .upparcontnet h2 {
+    font-size: 40px;
+}
+}
+@media screen and (max-width:600px) {
+.headertop {
+    background-color: #000;
+    padding: 10px 0;
+    text-align: center;
+}
+.productsection .products .producttitle {
+    float: unset;
+}
+	.button {
+    right: 0;
+    left: unset;
+}
+	.logo {
+    top: -61px;
+    left: -140px;
+}
+	.menupart {
+    position: relative;
+}
+	.menupart .menu-right {
+    position: absolute;
+    top: -57px;
+    right: 86px;
+}
+	.menupart .logo img {
+    width: 15%;
+}
+#cssmenu ul {
+    position: absolute;
+    top: 52px;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    background-color: #fff;
+    padding: 0 15px;
+}
+
+#cssmenu ul li ul {
+	top: 0px;
+	padding: 0px;
+}
+#cssmenu ul li ul li {padding: 0px 10px;}
+.headertop .top-right ul {
+    text-align: center;
+}
+}
+@media screen and (max-width: 375px){
+.logo {
+    top: -53px;
+    left: -121px;
+}
+	}
+	@media (min-width: 730px) and (max-width: 736px) {
+	.headertop .top-left p {
+		text-align: center;
+	}
+	.headertop .top-right ul {
+		text-align: center;
+	}
+	.button {
+		left: unset;
+		right: 0;
+	}
+	.logo {
+		top: -75px;
+		left: 13px;
+	}
+	.menupart .logo img {
+		width: 14%;
+		margin: unset;
+	}
+	#cssmenu ul {
+		position: absolute;
+		z-index: 9;
+		background-color: #fff;
+		top: 66px;
+	}
+}
+@media (min-width: 667px) and (max-width: 685px) {
+	.headertop .top-left p {
+		text-align: center;
+	}
+	.headertop .top-right ul {
+		text-align: center;
+	}
+	.button {
+		left: unset;
+		right: 0;
+	}
+	.logo {
+		top: -75px;
+		left: 13px;
+	}
+	.menupart .logo img {
+		width: 14%;
+		margin: unset;
+	}
+	#cssmenu ul {
+		position: absolute;
+		z-index: 9;
+		background-color: #fff;
+		top: 66px;
+	}
+}
+@media (min-width: 767px) and (max-width: 800px) {
+	.headertop .top-left p {
+		text-align: center;
+	}
+	.headertop .top-right ul {
+		text-align: center;
+	}
+	.button {
+		left: unset;
+		right: -426px;
+		top: -14px;
+	}
+	.logo {
+		top: -16px;
+		left: -292px;
+	}
+	.menupart .logo img {
+		width: 69%;
+		margin: unset;
+	}
+	#cssmenu ul {
+		left: 0;
+		position: absolute;
+		z-index: 9;
+		background-color: #fff;
+		top: 50px;
+		right: 0;
+		width: 238%;
+	}
+}
